@@ -10,6 +10,7 @@ gem 'devise'
 gem 'devise-bootstrap-views', '~> 1.0'
 
 gem 'iex-ruby-client'
+gem "font-awesome-rails"
 
 # Use Puma as the app server
 gem 'puma', '~> 5.0'
