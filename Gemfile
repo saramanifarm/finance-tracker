@@ -7,6 +7,7 @@ ruby '3.0.0'
 gem 'rails', '~> 6.1.4'
 
 gem 'devise'
+gem 'devise-bootstrap-views', '~> 1.0'
 
 # Use Puma as the app server
 gem 'puma', '~> 5.0'
