@@ -9,9 +9,9 @@ class Stock < ApplicationRecord
 
         if ENV['sandbox_api_key']
             api_key = ENV['sandbox_api_key']
-          else
+        else
             api_key = Rails.application.credentials.iex_client[:sandbox_api_key]
-          end
+        end
           if ENV['sandbox_secret_key']
             secret_key = ENV['sandbox_secret_key']
           else
